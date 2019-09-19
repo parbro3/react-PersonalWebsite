@@ -8,9 +8,9 @@ class Footer extends Component {
 render() {
 
 	return(
-    <footer class="HolyGrail-footer">
+		<footer class="HolyGrail-footer">
 			<NavBarCustom title="share" social="false" share="true" menuItems={[]} dropDownItems={[]}/>
-    </footer>
+		</footer>
 	);
 }
 

@@ -6,7 +6,7 @@ class AsideRight extends Component {
 
 render() {
 	return(
-    <div class="HolyGrail-ads">Ads Right</div>
+		<div class="HolyGrail-ads">Ads Right</div>
 	);
 }
 

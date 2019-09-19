@@ -16,26 +16,17 @@ class HolyGrail extends Component {
 
 //usually include <AsideLeft /> and <AsideRight />
 
-render() {
-	return(
-    <body class="HolyGrail">
-
-
-      <Header />
-
-
-      <div class="HolyGrail-body">
-        <Main />
-      </div>
-
-
-
-	    <Footer />
-
-
-    </body>
-	);
-}
+  render() {
+    return(
+      <body class="HolyGrail">
+        <Header />
+        <div class="HolyGrail-body">
+          <Main />
+        </div>
+        <Footer />
+      </body>
+    );
+  }
 
 }
 export default HolyGrail;

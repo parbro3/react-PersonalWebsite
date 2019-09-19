@@ -6,7 +6,7 @@ class AsideLeft extends Component {
 
 render() {
 	return(
-    <div class="HolyGrail-nav">Menu Left</div>
+		<div class="HolyGrail-nav">Menu Left</div>
 	);
 }
 

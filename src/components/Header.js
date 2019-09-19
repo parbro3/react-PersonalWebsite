@@ -28,7 +28,6 @@ render() {
 			link: "/gallery"
 			}
 		],
-
 		"menuDropDowns": [
 			{
 				"header": "downloads",
@@ -69,8 +68,8 @@ render() {
 
 	return(
 	    <PageHeader class="HolyGrail-header">
-					<NavBarCustom title="prker bronson" social="true" share="false" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
-			</PageHeader>
+			<NavBarCustom title="prker bronson" social="true" share="false" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
+		</PageHeader>
 	);
 }
 

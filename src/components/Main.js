@@ -12,7 +12,7 @@ class Main extends Component {
 render() {
 	return(
 		<Router>
-	    <div class="HolyGrail-main">
+			<div class="HolyGrail-main">
 				<Route path="/about" component={About}/>
 				<Route path="/projects" component={Projects}/>
 				<Route path="/gallery" component={Gallery}/>
