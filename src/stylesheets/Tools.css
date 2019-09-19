@@ -1,0 +1,55 @@
+.carousel {
+  width:435px;
+  height:800px;
+  margin: auto;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: gray;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: gray;
+}
+
+.carousel-custom {
+  flex-wrap: wrap;
+}
+
+.carousel-custom-caption {
+  text-align: center;
+  color: black;
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+
+.vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
+  left: auto;
+  right: 150%;
+  text-align: right;
+  color: white;
+}
+
+.vertical-timeline-element-content .vertical-timeline-element-date {
+    position: absolute;
+    width: 100%;
+    left: 150%;
+    top: 6px;
+    font-size: 30px;
+    color: white;
+}

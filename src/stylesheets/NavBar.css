@@ -1,0 +1,30 @@
+a.social-icon {
+  margin-left: 10px;
+  margin-right: 0px;
+}
+
+.navbar-brand {
+  margin-right:0;
+}
+
+ul.social-share {
+  list-style-type: none;
+  display:inline-flex;
+}
+
+.share-container{
+  margin-left: 10px;
+  margin-right: 0px;
+  flex-wrap: wrap;
+}
+
+.share-icon {
+  display: inline-block;
+  margin:9px;
+}
+
+.share-icon:hover {
+  margin-left:10px;
+  margin-right:10px;
+  cursor: pointer;
+}

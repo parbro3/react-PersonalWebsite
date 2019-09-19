@@ -1,0 +1,13 @@
+.HolyGrail-main .nav-link {
+  background-color: gray;
+}
+
+.flex-family-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-start;
+}
+
+.jumbo-map-container {
+  margin: 30px;
+}
