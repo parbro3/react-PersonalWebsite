@@ -4,6 +4,7 @@ import { Jumbotron, Button } from 'reactstrap';
 import {Document, Page} from 'react-pdf';
 import Lightbox from 'react-images';
 import "../../stylesheets/HolyGrail.css";
+import "../../stylesheets/Resume.css";
 
 class Resume extends Component {
 
@@ -15,19 +16,19 @@ class Resume extends Component {
       onDocumentLoadSuccess = ({ numPages }) => {
         this.setState({ numPages });
       }
-     
+
       render() {
         const { pageNumber, numPages } = this.state;
      
         return (
-          <div>
-            <Document
-              file={require("./ParkerBronson_Resume.pdf")}
-              onLoadSuccess={this.onDocumentLoadSuccess}
-            >
-              <Page pageNumber={pageNumber} />
-            </Document>
-            <p>Page {pageNumber} of {numPages}</p>
+          <div class="project-frame">
+                <div class="Resume">
+                    <Document
+                        file={require("./ParkerBronson_Resume.pdf")}
+                        onLoadSuccess={this.onDocumentLoadSuccess} >
+                    <Page pageNumber={pageNumber} />
+                    </Document>
+                </div>
           </div>
         );
       }

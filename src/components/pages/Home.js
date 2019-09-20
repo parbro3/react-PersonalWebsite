@@ -9,13 +9,10 @@ class Home extends Component {
 render() {
 	return(
 
-    <div class="HolyGrail-main">
+    <div class="HolyGrail-main, project-frame">
       <Jumbotron>
-
           <h1 className="display-3">Hello, Everyone!</h1>
-          <p className="lead">This is a portfolio website I built using ReactJS</p>
-          <hr className="my-2" />
-          <p>It mainly uses a library called ReactStrap but uses many custom components also. The link to the repo is below!</p>
+          <p className="lead">This is a simple portfolio website I built using ReactJS. It mainly uses a library called ReactStrap but uses many custom components also. The link to the repo is below!</p>
           <p className="lead">
             <a href="https://github.com/parbro3/react-PersonalWebsite">Git Repo</a>
           </p>

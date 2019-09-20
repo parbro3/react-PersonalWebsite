@@ -16,6 +16,10 @@ render() {
 	var menuObject = {
 		"menuItems": [
 			{
+				title: "home",
+				link: "/"
+			},
+			{
 				title: "about",
 				link: "/about"
 			},
@@ -23,15 +27,30 @@ render() {
 				title: "projects",
 				link: "/projects"
 			},
-	 		{
-				title: "gallery",
-				link: "/gallery"
-			},
 			{
 				title: "resume",
 				link: "/resume"
 			}
 		],
+		"menuDropDowns": []
+	}
+
+	return(
+		<div>
+			<PageHeader class="HolyGrail-header">
+				<NavBarCustom title="parker bronson" social="true" share="false" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
+			</PageHeader>
+		</div>
+	);
+}
+
+}
+export default Header;
+
+
+	/*
+
+
 		"menuDropDowns": [
 			{
 				"header": "downloads",
@@ -68,14 +87,5 @@ render() {
 				]
 			}
 		]
-	}
 
-	return(
-	    <PageHeader class="HolyGrail-header">
-			<NavBarCustom title="parker bronson" social="true" share="false" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
-		</PageHeader>
-	);
-}
-
-}
-export default Header;
+		*/
