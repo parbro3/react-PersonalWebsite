@@ -106,7 +106,19 @@ const fedexItems = [
 				<NavItem>
 					<NavLink className={classnames({ active: this.state.activeTab === '3' })}
 						onClick={() => { this.toggle('3'); }} >
-						FedEx Networking Internship
+						Spirit AeroSystems
+					</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink className={classnames({ active: this.state.activeTab === '4' })}
+						onClick={() => { this.toggle('4'); }} >
+						FedEx Internship
+					</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink className={classnames({ active: this.state.activeTab === '5' })}
+						onClick={() => { this.toggle('5'); }} >
+						Ticket to Ride
 					</NavLink>
 				</NavItem>
 			</Nav>
@@ -144,6 +156,22 @@ const fedexItems = [
 				<TabPane tabId="3">
 					<Jumbotron>
 
+						<h2 className="display-4">Spirit AeroSystems</h2>
+						<p className="lead">
+							On a team of only a few developers, I helped build an application that allowed an engineer to 
+							write one script to produce a 3D model in multiple different industry-leading softwares. Using an XML-based
+							scripting language, our application would parse the user-written script, and then use the Catia API and NX API
+							to build models in each respective program.
+						</p>
+
+						<br/>
+						<a href="http://www.cadconferences.com/CAD18_412-416.html#.XXFh2pNKjOQ">Published Research Article</a>
+					</Jumbotron>
+				</TabPane>
+
+				<TabPane tabId="4">
+					<Jumbotron>
+
 						<h2 className="display-4">Fedex Intern Project</h2>
 						<p className="lead">
 							I interned at the FedEx World Tech Center located in Collierville (Memphis), Tennessee during the Summer of 2018. 
@@ -159,9 +187,22 @@ const fedexItems = [
 						</p2>
 						<CarouselCustom items={fedexItems} />
 					</Jumbotron>
+				</TabPane>
+				<TabPane tabId="5">
+					<Jumbotron>
 
-
-
+						<h2 className="display-4">Ticket to Ride Board Game</h2>
+						<p className="lead">
+							For my software design and patterns class, we were tasked with building the Ticket to Ride board game
+							with whatever technologies we wanted using software patterns like Facade, Singleton, Command, Plugin, Proxy, 
+							State, and Factory.
+						</p>
+						<br/>
+						<p className="lead">
+							I worked primarily on the back-end server built in Java using Android Studio. The repository can be found at the link below. 
+						</p>
+						<a href="https://github.com/kjohnsen/T2R_divergent_walruses">Github Repo</a>
+					</Jumbotron>
 				</TabPane>
 			</TabContent>
 

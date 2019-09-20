@@ -24,8 +24,12 @@ render() {
 				link: "/projects"
 			},
 	 		{
-			title: "gallery",
-			link: "/gallery"
+				title: "gallery",
+				link: "/gallery"
+			},
+			{
+				title: "resume",
+				link: "/resume"
 			}
 		],
 		"menuDropDowns": [

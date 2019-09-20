@@ -34,26 +34,71 @@ render() {
 				</p>
 			</VerticalTimelineElement>
 
-
 			<VerticalTimelineElement
-		    className="vertical-timeline-element--education"
-		    date="Summer 2018"
-		    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-		    icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-				    <path d="M0 0h24v24H0z" fill="none"/>
-				    <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
-				</svg> }
-		  >
-		    <h3 className="vertical-timeline-element-title">FedEx IT Intern</h3>
-		    <h4 className="vertical-timeline-element-subtitle">Memphis, Tennessee</h4>
-		    <p>
-		      Working in the Network Communications Dept, I led the technical team using Scrum/Agile methodologies in the development of a Network Health dashboard in Splunk (Big Data Analytics).
-		    </p>
+				className="vertical-timeline-element--work"
+				date="Jan 2019 - Now"
+				iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M0 0h24v24H0z" fill="none"/>
+						<path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+					</svg> } >
+				<h3 className="vertical-timeline-element-title">Obeo Software Engineer</h3>
+				<h4 className="vertical-timeline-element-subtitle">Sandy, Utah</h4>
+				<p>
+					I currently work as a software engineer for an on-demand real estate photography company called Obeo. I've worked on projects 
+					that involve api integrations with Youtube, Filestack, and SalesforceOne, projects that utilize the Salesforce CLI for data 
+					importing, and a big project developing regression tests for end to end testing. 
+				</p>
+			</VerticalTimelineElement>
+
+		  <VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				date="June 2019 - April 2020"
+				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M0 0h24v24H0z" fill="none"/>
+						<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+					</svg> } >
+				<h3 className="vertical-timeline-element-title">BYU Marriot School of Business</h3>
+				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
+				<p>
+					I decided to reject my offers and get a Master's in Information Systems Management from the BYU Marriot School.
+				</p>
+		  </VerticalTimelineElement>
+
+		  <VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				date="2015 - April 2019"
+				iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M0 0h24v24H0z" fill="none"/>
+						<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+					</svg> } >
+				<h3 className="vertical-timeline-element-title">Ira A. Fulton College of Engineering</h3>
+				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
+				<p>
+					I graduated from Brigham Young University in Mechanical Engineering with a minor in Computer Science.
+				</p>
 		  </VerticalTimelineElement>
 
 			<VerticalTimelineElement
+				className="vertical-timeline-element--education"
+				date="Summer 2018"
+				iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M0 0h24v24H0z" fill="none"/>
+						<path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+					</svg> } >
+				<h3 className="vertical-timeline-element-title">FedEx IT Intern</h3>
+				<h4 className="vertical-timeline-element-subtitle">Memphis, Tennessee</h4>
+				<p>
+				Working in the Network Communications Dept, I led the technical team using Scrum/Agile methodologies in the development of a Network Health dashboard in Splunk (Big Data Analytics).
+				</p>
+			</VerticalTimelineElement>
+
+			<VerticalTimelineElement
 		    className="vertical-timeline-element--education"
-		    date="Febraruary 2017 - Now"
+		    date="Febraruary 2017 - January 2019"
 		    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 		    icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 				    <path d="M0 0h24v24H0z" fill="none"/>
@@ -63,23 +108,24 @@ render() {
 		    <h3 className="vertical-timeline-element-title">Spirit Aerosystems — Research Assistant</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 		    <p>
-		      As a computer-aided design specialist, I do research for the Mechanical Engineering Dept at BYU seeking solutions to automating scripts for Spirit Aerosystems.
+		      As a computer-aided design specialist and on the development team, I helped build a solution to allow 
+			  engineers to write one script to build 3D models in multiple different modeling softwares.
 		    </p>
 		  </VerticalTimelineElement>
 			<VerticalTimelineElement
-		    className="vertical-timeline-element--education"
-		    date="Summer 2017"
-		    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-		    icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-				    <path d="M0 0h24v24H0z" fill="none"/>
-				    <path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
-				</svg> }
-		  >
-		    <h3 className="vertical-timeline-element-title">Caldera Engineering Intern</h3>
-		    <h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
-		    <p>
-		      On the technology development team, I built a python solution in python by implementing properties of substances and mixtures found in an open-source library called DWSIM.
-		    </p>
+				className="vertical-timeline-element--education"
+				date="Summer 2017"
+				iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+						<path d="M0 0h24v24H0z" fill="none"/>
+						<path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
+					</svg> }
+			>
+				<h3 className="vertical-timeline-element-title">Caldera Engineering Intern</h3>
+				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
+				<p>
+				On the technology development team, I built a solution in python by implementing properties of substances and mixtures found in an open-source library called DWSIM.
+				</p>
 		  </VerticalTimelineElement>
 
 			<VerticalTimelineElement
@@ -95,23 +141,7 @@ render() {
 		    <h3 className="vertical-timeline-element-title">Accounting Systems Analyst</h3>
 		    <h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 		    <p>
-		      Working for BYU Financial Services, I optimized processes through various scripts and queries that are still used today.
-		    </p>
-		  </VerticalTimelineElement>
-
-			<VerticalTimelineElement
-		    className="vertical-timeline-element--work"
-		    date="2015 - Now"
-		    iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-		    icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-				    <path d="M0 0h24v24H0z" fill="none"/>
-				    <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
-				</svg> }
-		  >
-		    <h3 className="vertical-timeline-element-title">Brigham Young University</h3>
-		    <h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
-		    <p>
-		      I returned to school to finish up my studies. I am currently in my final year at BYU.
+		      Working for BYU Financial Services, I optimized processes through various scripts and queries, and built an invoicing system that is still used today.
 		    </p>
 		  </VerticalTimelineElement>
 

@@ -87,8 +87,7 @@ render() {
       <CarouselItem
         onExiting={this.onExiting}
         onExited={this.onExited}
-        key={item.src}
-      >
+        key={item.src} >
         <img src={this.evalImg(item.src)} alt={item.altText} />
         <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
       </CarouselItem>

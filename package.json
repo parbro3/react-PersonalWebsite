@@ -10,6 +10,7 @@
     "react-dom": "^16.4.2",
     "react-images": "^0.5.19",
     "react-overlays": "^0.8.3",
+    "react-pdf": "^4.1.0",
     "react-photo-gallery": "^6.2.0",
     "react-router-dom": "^4.3.1",
     "react-scripts": "1.1.5",
