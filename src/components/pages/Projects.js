@@ -65,6 +65,25 @@ render() {
 	}
 ];
 
+const fedexItems = [
+	{
+		src: '../../img/Director-Choice-Winner3.JPG',
+		altText: '',
+		caption: '',
+		customCaption: 'My team after winning The Director\'s Choice Award'
+	},
+	{
+		src: '../../img/FedexPresentation.JPG',
+		altText: '',
+		caption: '',
+		customCaption: 'Presenting our product to the department. A little nerve-racking!'
+	},
+	{
+		src: '../../img/FedexJet.JPG',
+		customCaption: 'Getting ready to board the FedEx private jet!'
+	}
+];
+
 	return(
 
     <div class="project-frame">
@@ -79,11 +98,15 @@ render() {
 					</NavLink>
 				</NavItem>
 				<NavItem>
-					<NavLink
-						className={classnames({ active: this.state.activeTab === '2' })}
-						onClick={() => { this.toggle('2'); }}
-					>
+					<NavLink className={classnames({ active: this.state.activeTab === '2' })}
+						onClick={() => { this.toggle('2'); }} >
 						Caldera Internship
+					</NavLink>
+				</NavItem>
+				<NavItem>
+					<NavLink className={classnames({ active: this.state.activeTab === '3' })}
+						onClick={() => { this.toggle('3'); }} >
+						FedEx Networking Internship
 					</NavLink>
 				</NavItem>
 			</Nav>
@@ -112,6 +135,29 @@ render() {
 						However, they wanted to explore the oil industry, but hydrocarbon properties are far different than water. As an intern for Caldera, I was tasked with modeling a valve sizing process while implementing properties of many substances and mixtures.
 						I built a solution in python using some of the property and process libaries from an open source software called DWSIM. Some of the outputted results can be seen below.</p>
 
+					</Jumbotron>
+
+
+
+				</TabPane>
+
+				<TabPane tabId="3">
+					<Jumbotron>
+
+						<h2 className="display-4">Fedex Intern Project</h2>
+						<p className="lead">
+							I interned at the FedEx World Tech Center located in Collierville (Memphis), Tennessee during the Summer of 2018. 
+							And, what an experience it was! I worked on a team of six people all from different backgrounds, competing against ten other teams 
+							all seeking to solve a problem for their department. In the network communications department, we were tasked with providing a real-time 
+							view of the health of the FedEx Network.
+						</p>
+						<br/>
+						<p2 className="lead">
+							We chose to use a product called "Splunk". Splunk allowed us to route all of the data from all the different devices on the network 
+							to one location. Then, we drew business intelligence from the humungous data sets. We built an application that gave us real-time status 
+							of the different interfaces on each of the core routers in the backbone of the network, and won first place in the Director's Choice Awards!
+						</p2>
+						<CarouselCustom items={fedexItems} />
 					</Jumbotron>
 
 

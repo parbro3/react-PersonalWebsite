@@ -123,7 +123,7 @@ render() {
 
           url={window.location.href}
 
-          title={"test title"}
+          title={"Hey everyone! Check out this website!"}
           windowWidth={750}
           windowHeight={600}
           className="button">
@@ -138,7 +138,7 @@ render() {
       <div class="share-icon" onMouseEnter={() => this.onMouseEnterHandler('tw')} onMouseLeave={() => this.onMouseExitHandler('tw')}>
           <TwitterShareButton
           url={window.location.href}
-          title={"test title"}
+          title={"Hey everyone! Check out this website!"}
           windowWidth={750}
           windowHeight={600}
           className="button">
@@ -151,7 +151,7 @@ render() {
       <div class="share-icon" onMouseEnter={() => this.onMouseEnterHandler('li')} onMouseLeave={() => this.onMouseExitHandler('li')}>
           <LinkedinShareButton
           url={window.location.href}
-          title={"test title"}
+          title={"Hey everyone! Check out this website!"}
           windowWidth={750}
           windowHeight={600}
           className="button">
@@ -165,7 +165,7 @@ render() {
       <div class="share-icon" onMouseEnter={() => this.onMouseEnterHandler('gp')} onMouseLeave={() => this.onMouseExitHandler('gp')}>
           <GooglePlusShareButton
           url={window.location.href}
-          title={"test title"}
+          title={"Hey everyone! Check out this website!"}
           windowWidth={750}
           windowHeight={600}
           className="button">
@@ -179,7 +179,7 @@ render() {
       <div class="share-icon" onMouseEnter={() => this.onMouseEnterHandler('em')} onMouseLeave={() => this.onMouseExitHandler('em')}>
           <EmailShareButton
           url={window.location.href}
-          title={"test title"}
+          title={"Hey everyone! Check out this website!"}
           windowWidth={750}
           windowHeight={600}
           className="button">

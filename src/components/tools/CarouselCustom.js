@@ -67,6 +67,12 @@ evalImg(imgString){
       return require('../../img/familymapSettings.png');
     case '../../img/familymapSearch.png':
       return require('../../img/familymapSearch.png');
+    case '../../img/Director-Choice-Winner3.JPG':
+      return require('../../img/Director-Choice-Winner3.JPG');
+    case '../../img/FedexPresentation.JPG':
+      return require('../../img/FedexPresentation.JPG');
+    case '../../img/FedexJet.JPG':
+      return require('../../img/FedexJet.JPG');
     default:
       return;
   }
