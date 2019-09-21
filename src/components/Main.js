@@ -11,6 +11,7 @@ import "../stylesheets/HolyGrail.css";
 class Main extends Component {
 
 render() {
+	//changed home to return "About" component.
 	return(
 		<Router>
 			<div class="HolyGrail-main">
@@ -18,7 +19,7 @@ render() {
 				<Route path="/projects" component={Projects}/>
 				<Route path="/gallery" component={Gallery}/>
 				<Route path="/resume" component={Resume}/>
-				<Route exact={true} path="/" component={Home}/>
+				<Route exact={true} path="/" component={About}/>
 			</div>
 		</Router>
 	);
