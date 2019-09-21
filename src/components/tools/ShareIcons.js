@@ -16,7 +16,7 @@ class ShareIcons extends Component {
 
   constructor(props){
     super(props);
-    this.state = { fb: false, tw: false, li: false, gp: false, em: false };
+    this.state = { fb: false, tw: false, li: false, rd: false, em: false };
   }
 
 onMouseEnterHandler = (icon) => {
@@ -32,8 +32,8 @@ onMouseEnterHandler = (icon) => {
     case 'li':
     this.setState({li: true});
       break;
-    case 'gp':
-    this.setState({gp: true});
+    case 'rd':
+    this.setState({rd: true});
       break;
     case 'em':
     this.setState({em: true});
@@ -57,8 +57,8 @@ onMouseExitHandler = (icon) => {
     case 'li':
     this.setState({li: false});
       break;
-    case 'gp':
-    this.setState({gp: false});
+    case 'rd':
+    this.setState({rd: false});
       break;
     case 'em':
     this.setState({em: false});
@@ -95,8 +95,8 @@ getIconSize(icon){
           return smallSize;
         }
       break;
-    case 'gp':
-      if(this.state.gp === true){
+    case 'rd':
+      if(this.state.rd === true){
         return largeSize;
       } else {
         return smallSize;
@@ -162,17 +162,17 @@ render() {
 
       </div>
 
-      <div class="share-icon" onMouseEnter={() => this.onMouseEnterHandler('gp')} onMouseLeave={() => this.onMouseExitHandler('gp')}>
-          <GooglePlusShareButton
+      <div class="share-icon" onMouseEnter={() => this.onMouseEnterHandler('rd')} onMouseLeave={() => this.onMouseExitHandler('rd')}>
+          <RedditShareButton
           url={window.location.href}
           title={"Hey everyone! Check out this website!"}
           windowWidth={750}
           windowHeight={600}
           className="button">
-            <GooglePlusIcon
-              size={this.getIconSize('gp')}
+            <RedditIcon
+              size={this.getIconSize('rd')}
               round={true} />
-        </GooglePlusShareButton>
+        </RedditShareButton>
 
       </div>
 
