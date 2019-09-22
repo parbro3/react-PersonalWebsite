@@ -17,7 +17,7 @@ render() {
 		<div class="project-frame">
 			<Jumbotron>
 				<h1 className="display-3">Welcome!</h1>
-				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap. and other custom components. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite">link to the repo</a>.</p>
+				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap. and other custom components. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">link to the repo</a>.</p>
 			</Jumbotron>
 
 			<VerticalTimeline>
@@ -163,7 +163,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Missionary - The Church of Jesus Christ of Latter-day Saints</h3>
 				<h4 className="vertical-timeline-element-subtitle">Gilbert, Arizona</h4>
 				<p>
-				For two years, I volunteered in Arizona. I helped with humanitarian projects and taught everyone I could about how to live a <a href="https://www.mormon.org/">happy life</a>.
+				For two years, I volunteered in Arizona. I helped with humanitarian projects and shared how to live a <a href="https://www.mormon.org/" target="_blank">happy life</a>.
 				</p>
 			</VerticalTimelineElement>
 

@@ -70,17 +70,17 @@ const fedexItems = [
 		src: '../../img/Director-Choice-Winner3.JPG',
 		altText: '',
 		caption: '',
-		customCaption: 'My team after winning The Director\'s Choice Award'
+		customCaption: 'My team after winning The Director\'s Choice Award.'
 	},
 	{
 		src: '../../img/FedexPresentation.JPG',
 		altText: '',
 		caption: '',
-		customCaption: 'Presenting our product to the department. A little nerve-racking!'
+		customCaption: 'Presenting our product to the department.'
 	},
 	{
 		src: '../../img/FedexJet.JPG',
-		customCaption: 'Getting ready to board the FedEx private jet!'
+		customCaption: 'Heading off to tour the FedEx Data Center.'
 	}
 ];
 
@@ -92,8 +92,7 @@ const fedexItems = [
 				<NavItem>
 					<NavLink
 						className={classnames({ active: this.state.activeTab === '1' })}
-						onClick={() => { this.toggle('1'); }}
-					>
+						onClick={() => { this.toggle('1'); }} >
 						FedEx Internship
 					</NavLink>
 				</NavItem>
@@ -112,13 +111,13 @@ const fedexItems = [
 				<NavItem>
 					<NavLink className={classnames({ active: this.state.activeTab === '4' })}
 						onClick={() => { this.toggle('4'); }} >
-						Family Map
+						Family History App
 					</NavLink>
 				</NavItem>
 				<NavItem>
 					<NavLink className={classnames({ active: this.state.activeTab === '5' })}
 						onClick={() => { this.toggle('5'); }} >
-						Ticket to Ride
+						Board Game App
 					</NavLink>
 				</NavItem>
 			</Nav>
@@ -143,7 +142,7 @@ const fedexItems = [
 
 						<h2 className="display-4">Caldera Intern Project</h2>
 						<p className="lead">
-						<a target="_blank" href="http://www.calderaengineering.com/"> Caldera Engineering </a>
+						<a target="_blank" href="http://www.calderaengineering.com/" target="_blank"> Caldera Engineering </a>
 						is a company that provides valves for the mineral mining industry. Before I arrived, they did their mathematical models with properties of water which was acceptable in the mineral mining industry.
 						However, they wanted to explore the oil industry, but hydrocarbon properties are far different than water. As an intern for Caldera, I was tasked with modeling a valve sizing process while implementing properties of many substances and mixtures.
 						I built a solution in python using some of the property and process libaries from an open source software called DWSIM. Some of the outputted results can be seen below.</p>
@@ -202,7 +201,7 @@ const fedexItems = [
 						<p className="lead">
 							I worked primarily on the back-end server built in Java using Android Studio. The repository can be found at the link below. 
 						</p>
-						<a href="https://github.com/kjohnsen/T2R_divergent_walruses">Github Repo</a>
+						<a href="https://github.com/kjohnsen/T2R_divergent_walruses" target="_blank">Github Repo</a>
 					</Jumbotron>
 				</TabPane>
 			</TabContent>

@@ -14,7 +14,7 @@ render() {
           <h1 className="display-3">Hello, Everyone!</h1>
           <p className="lead">This is a simple portfolio website I built using ReactJS. It mainly uses a library called ReactStrap but uses many custom components also. The link to the repo is below!</p>
           <p className="lead">
-            <a href="https://github.com/parbro3/react-PersonalWebsite">Git Repo</a>
+            <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">Git Repo</a>
           </p>
       </Jumbotron>
 		</div>
