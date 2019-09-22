@@ -94,7 +94,7 @@ const fedexItems = [
 						className={classnames({ active: this.state.activeTab === '1' })}
 						onClick={() => { this.toggle('1'); }}
 					>
-						Family Map
+						FedEx Internship
 					</NavLink>
 				</NavItem>
 				<NavItem>
@@ -112,7 +112,7 @@ const fedexItems = [
 				<NavItem>
 					<NavLink className={classnames({ active: this.state.activeTab === '4' })}
 						onClick={() => { this.toggle('4'); }} >
-						FedEx Internship
+						Family Map
 					</NavLink>
 				</NavItem>
 				<NavItem>
@@ -124,7 +124,7 @@ const fedexItems = [
 			</Nav>
 			<TabContent activeTab={this.state.activeTab}>
 
-				<TabPane tabId="1">
+				<TabPane tabId="4">
 					<div class="flex-family-container">
 
 							<Jumbotron>
@@ -166,11 +166,11 @@ const fedexItems = [
 						</p>
 
 						<br/>
-						<a href="http://www.cadconferences.com/CAD18_412-416.html#.XXFh2pNKjOQ">Published Research Article</a>
+						<a href="http://www.cadconferences.com/CAD18_412-416.html#.XXFh2pNKjOQ" target="_blank">Published Research Article</a>
 					</Jumbotron>
 				</TabPane>
 
-				<TabPane tabId="4">
+				<TabPane tabId="1">
 					<Jumbotron>
 
 						<h2 className="display-4">Fedex Intern Project</h2>
