@@ -16,8 +16,8 @@ render() {
 	return(
 		<div class="project-frame">
 			<Jumbotron>
-				<h1 className="display-3">Hello, Everyone!</h1>
-				<p className="lead">This is a simple portfolio website I built purely in React. Built with libraries like react-strap, react-router, and react-pdf (for my resume). but uses many custom components also. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite">link to the repo</a>.</p>
+				<h1 className="display-3">Welcome!</h1>
+				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap. and other custom components. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite">link to the repo</a>.</p>
 			</Jumbotron>
 
 			<VerticalTimeline>
@@ -140,9 +140,7 @@ render() {
 				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path d="M0 0h24v24H0z" fill="none"/>
 						<path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/>
-					</svg>
-	}
-			>
+					</svg> } >
 				<h3 className="vertical-timeline-element-title">Accounting Systems Analyst</h3>
 				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 				<p>
@@ -181,7 +179,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Brigham Young University</h3>
 				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 				<p>
-				I went to BYU to study Mechanical Engineering and Computer Science.
+					I was accepted to BYU and chose to study Mechanical Engineering and Computer Science.
 				</p>
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
@@ -196,7 +194,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Early Life</h3>
 				<h4 className="vertical-timeline-element-subtitle">Eagle, Idaho</h4>
 				<p>
-				I grew up in Eagle, Idaho. I love tennis and football and come from a family of 9!
+					I grew up in Eagle, Idaho. I love tennis, football, and come from a family of 9!
 				</p>
 			</VerticalTimelineElement>
 

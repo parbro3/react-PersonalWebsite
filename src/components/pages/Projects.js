@@ -130,7 +130,8 @@ const fedexItems = [
 							<Jumbotron>
 								<h2 className="display-4">Family History Map</h2>
 
-								<h3 className="lead">This is the Family Map. A full stack Android App. The backend was built in Java, and DB in SQLite. This utility shows how your family is connected (by marriage and ancestry) and where they went in their life.</h3>
+								<h3 className="lead">This is a full stack Android App. The user's ancestry and events are displayed on a map. 
+								The backend was built in Java, and DB in SQLite. Details show how your family is connected (by marriage and ancestry) and where they went in their life.</h3>
 								<CarouselCustom items={familyMapItems} />
 							</Jumbotron>
 
