@@ -22,26 +22,9 @@ render() {
 
 			<VerticalTimeline>
 
-
-				<VerticalTimelineElement
-					className="vertical-timeline-element--education"
-					date="Future"
-					iconStyle={{ background: '#FEC540', color: '#fff' }}
-					icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-						<path d="M0 0h24v24H0z" fill="none"/>
-						<path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"/>
-					</svg>}
-				>
-					<h3 className="vertical-timeline-element-title">Company: ? ? ?</h3>
-					<h4 className="vertical-timeline-element-subtitle">Location: ? ? ?</h4>
-					<p>
-						My options are open! I'd love to contribute as a software engineer to a large or growing company. But I dream!
-					</p>
-				</VerticalTimelineElement>
-
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="Jan 2019 - Now"
+					date="Jan 2019 - Present"
 					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 					icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 							<path d="M0 0h24v24H0z" fill="none"/>
@@ -163,7 +146,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Missionary - The Church of Jesus Christ of Latter-day Saints</h3>
 				<h4 className="vertical-timeline-element-subtitle">Gilbert, Arizona</h4>
 				<p>
-				For two years, I volunteered in Arizona. I helped with humanitarian projects and shared how to live a <a href="https://www.mormon.org/" target="_blank">happy life</a>.
+				I decided to put off school for two years and volunteer in Phoenix, Arizona. I helped with humanitarian projects and shared how to live a <a href="https://www.mormon.org/" target="_blank">happy life</a>.
 				</p>
 			</VerticalTimelineElement>
 
@@ -180,21 +163,6 @@ render() {
 				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 				<p>
 					I was accepted to BYU and chose to study Mechanical Engineering and Computer Science.
-				</p>
-			</VerticalTimelineElement>
-			<VerticalTimelineElement
-				className="vertical-timeline-element--school"
-				date="1994-2012"
-				iconStyle={{ background: 'rgb(16, 204, 82)', color: '#fff' }}
-				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-						<path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/>
-						<path d="M0 0h24v24H0z" fill="none"/>
-					</svg> }
-			>
-				<h3 className="vertical-timeline-element-title">Early Life</h3>
-				<h4 className="vertical-timeline-element-subtitle">Eagle, Idaho</h4>
-				<p>
-					I grew up in Eagle, Idaho. I love tennis, football, and come from a family of 9!
 				</p>
 			</VerticalTimelineElement>
 
