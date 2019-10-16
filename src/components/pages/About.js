@@ -17,7 +17,7 @@ render() {
 		<div class="project-frame">
 			<Jumbotron>
 				<h1 className="display-3">Welcome!</h1>
-				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap. and other custom components. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">link to the repo</a>.</p>
+				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap, Router, and other custom components. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">link to the repo</a>.</p>
 			</Jumbotron>
 
 			<VerticalTimeline>
@@ -33,9 +33,9 @@ render() {
 					<h3 className="vertical-timeline-element-title">Obeo Software Engineer</h3>
 					<h4 className="vertical-timeline-element-subtitle">Sandy, Utah</h4>
 					<p>
-						I currently work as a software engineer for an on-demand real estate photography company called Obeo. I've worked on projects 
-						that involve api integrations with Youtube, Filestack, and SalesforceOne, projects that utilize the Salesforce CLI for data 
-						importing, and a big project developing regression tests for end to end testing. 
+						I currently work as a software engineer for an on-demand real estate photography company called <a href="https://www.obeo.app" target="_blank">Obeo</a>.
+                        I've worked on projects that involve api integrations with Youtube, Filestack, and SalesforceOne, projects that utilize the Salesforce CLI for data
+						importing, and a big project developing regression tests for end to end testing to facilitate CI/CD.
 					</p>
 				</VerticalTimelineElement>
 
@@ -50,7 +50,7 @@ render() {
 					<h3 className="vertical-timeline-element-title">BYU Marriot School of Business</h3>
 					<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 					<p>
-						I decided to reject my offers and get a Master's in Information Systems Management from the BYU Marriot School.
+						I decided to forgo my offers and get a Master's in Information Systems Management from the BYU Marriot School.
 					</p>
 			</VerticalTimelineElement>
 
@@ -86,7 +86,7 @@ render() {
 
 				<VerticalTimelineElement
 				className="vertical-timeline-element--education"
-				date="Febraruary 2017 - January 2019"
+				date="February 2017 - January 2019"
 				iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path d="M0 0h24v24H0z" fill="none"/>
@@ -96,7 +96,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Spirit Aerosystems — Research Assistant</h3>
 				<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 				<p>
-				As a computer-aided design specialist and on the development team, I helped build a solution to allow 
+				As a computer-aided design specialist and developer on the applications team, I helped build a solution to allow
 				engineers to write one script to build 3D models in multiple different modeling softwares.
 				</p>
 			</VerticalTimelineElement>
@@ -112,7 +112,7 @@ render() {
 					<h3 className="vertical-timeline-element-title">Caldera Engineering Intern</h3>
 					<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 					<p>
-					On the technology development team, I built a solution in python by implementing properties of substances and mixtures found in an open-source library called DWSIM.
+					On the technology development team, I built a solution in python by implementing properties of substances and mixtures found in an open-source library called DWSIM to facilitate Caldera's entrance into the oil industry.
 					</p>
 			</VerticalTimelineElement>
 
@@ -146,7 +146,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Missionary - The Church of Jesus Christ of Latter-day Saints</h3>
 				<h4 className="vertical-timeline-element-subtitle">Gilbert, Arizona</h4>
 				<p>
-				I decided to put off school for two years and volunteer in Phoenix, Arizona. I helped with humanitarian projects and shared how to live a <a href="https://www.mormon.org/" target="_blank">happy life</a>.
+				I decided to put off school for two years and volunteer in Phoenix, Arizona. I helped with humanitarian projects and shared how to live a <a href="https://www.mormon.org/" target="_blank">better life</a>.
 				</p>
 			</VerticalTimelineElement>
 
