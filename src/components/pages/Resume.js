@@ -37,7 +37,7 @@ class Resume extends Component {
           <div class="project-frame">
             <div style={buttonStyle}>
                 <Button color="secondary">
-                    <a style={linkStyle} href="https://parkerpublic.s3.amazonaws.com/RESUME_parkerBronson.pdf" download="resumeParkerBronson.pdf">Download Resume</a>
+                    <a style={linkStyle} href="/resume.pdf" download="resumeParkerBronson.pdf">Download Resume</a>
                 </Button>
             </div>
             <br/>
