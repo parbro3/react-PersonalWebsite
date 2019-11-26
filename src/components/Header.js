@@ -34,7 +34,7 @@ render() {
 	return(
 		<div>
 			<PageHeader class="HolyGrail-header">
-				<NavBarCustom title="parker bronson" social="true" share="false" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
+				<NavBarCustom title="parker bronson" social="true" share="false" menuItemsShowing="true" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
 			</PageHeader>
 		</div>
 	);

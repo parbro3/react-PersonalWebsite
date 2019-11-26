@@ -5,8 +5,7 @@ import {AutoAffix} from 'react-overlays'
 
 import "../../stylesheets/NavBar.css";
 
-import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu,
-  DropdownItem } from 'reactstrap';
+import {Collapse,Navbar,NavbarToggler,NavbarBrand,Nav,NavItem,NavLink,UncontrolledDropdown,DropdownToggle,DropdownMenu, DropdownItem } from 'reactstrap';
 
 class NavBarCustom extends Component {
 
@@ -55,39 +54,51 @@ class NavBarCustom extends Component {
 		return dropDownsBuilt;
 	}
 
-  evalSocial(){
-    if(this.props.social==="true") {
-      return <SocialIcons />
-    } else {
-      return
-    }
-  }
+	evalSocial(){
+		if(this.props.social==="true") {
+			return <SocialIcons />
+		} else {
+			return
+		}
+	}
 
-  evalShare(){
-    if(this.props.share==="true") {
-      return <ShareIcons />
-    } else {
-      return
-    }
-  }
+	evalShare(){
+		if(this.props.share==="true") {
+			return <ShareIcons />
+		} else {
+			return
+		}
+	}
 
 	render() {
-		return(
-			<div>
-			  <Navbar color="light" light expand="md" >
-			    <NavbarBrand href="/">{this.props.title}</NavbarBrand>
-            {this.evalSocial()}
-            {this.evalShare()}
-			    <NavbarToggler onClick={this.toggle} />
-			    <Collapse isOpen={this.state.isOpen} navbar>
-			      <Nav className="ml-auto" navbar >
-							{this.buildMenuItems(this.props.menuItems)}
-							{this.buildDropDowns(this.props.dropDownItems)}
-			      </Nav>
-			    </Collapse>
-			  </Navbar>
-			</div>
-		);
+		if(this.props.menuItemsShowing==="true"){
+			return(
+				<div>
+					<Navbar color="light" light expand="md" >
+						<NavbarBrand href="/">{this.props.title}</NavbarBrand>
+						{this.evalSocial()}
+						{this.evalShare()}
+						<NavbarToggler onClick={this.toggle} />
+						<Collapse isOpen={this.state.isOpen} navbar>
+							<Nav className="ml-auto" navbar >
+								{this.buildMenuItems(this.props.menuItems)}
+								{this.buildDropDowns(this.props.dropDownItems)}
+							</Nav>
+						</Collapse>
+					</Navbar>
+				</div>
+			);
+		} else {
+			return(
+				<div>
+					<Navbar color="light" light expand="md" >
+						<NavbarBrand href="/">{this.props.title}</NavbarBrand>
+						{this.evalSocial()}
+						{this.evalShare()}
+					</Navbar>
+				</div>
+			);
+		}
 	}
 }
 export default NavBarCustom;

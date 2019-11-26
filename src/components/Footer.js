@@ -9,7 +9,7 @@ render() {
 
 	return(
 		<footer class="HolyGrail-footer">
-			<NavBarCustom title="share" social="false" share="true" menuItems={[]} dropDownItems={[]}/>
+			<NavBarCustom title="share" social="false" share="true" menuItemsShowing="false" menuItems={[]} dropDownItems={[]}/>
 		</footer>
 	);
 }
