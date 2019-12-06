@@ -61,10 +61,10 @@ render() {
 								I have a strong interest in security. My offensive security class and password cracking activities made me want to build 
 								tool that generates a password list based on what you know about a person and their social media pages. My tool will go out 
 								and scrape public social media pages like LinkedIn and Facebook to retrieve personal information to be used in word generation. 
-								I use technologies like cewl, a webscraping linux CLI tool, and just good ole java to build permutations of the words.
+								I use technologies like cewl and hashcat, CLI tools for webscraping and word permutations.
 							</h3>
 							<br/>
-								This solution is under construction but the repo can be found <a href="https://github.com/parbro3/passwordListGenerator">here</a>
+								This solution is under construction but the repo can be found <a target="_blank" href="https://github.com/parbro3/passwordListGenerator">here</a>
 								.
 						</Jumbotron>
 
