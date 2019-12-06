@@ -20,21 +20,35 @@ render() {
 				link: "/"
 			},
 			{
-				title: "projects",
-				link: "/projects"
-			},
-			{
 				title: "resume",
 				link: "/resume"
 			}
 		],
-		"menuDropDowns": []
+		"menuDropDownObjects":[
+			{
+				title: "projects",
+				dropDownItems:[
+					{
+						title: "school",
+						link: "/schoolProjects"
+					},
+					{
+						title: "work",
+						link: "/workProjects"
+					},
+					{
+						title: "personal",
+						link: "/personalProjects"
+					}
+				]
+			}
+		]
 	}
 
 	return(
 		<div>
 			<PageHeader class="HolyGrail-header">
-				<NavBarCustom title="parker bronson" social="true" share="false" menuItemsShowing="true" menuItems={menuObject.menuItems} dropDownItems={menuObject.menuDropDowns}/>
+				<NavBarCustom title="parker bronson" social="true" share="false" menuItemsShowing="true" menuItems={menuObject.menuItems} dropDownObjects={menuObject.menuDropDownObjects}/>
 			</PageHeader>
 		</div>
 	);

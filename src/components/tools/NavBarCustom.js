@@ -23,6 +23,38 @@ class NavBarCustom extends Component {
 		});
 	}
 
+	buildMenuDropDowns(menuObjectsArray){
+		var menuDropDownObjectsBuilt =[];
+		console.log('building menu drop down');
+		menuObjectsArray.forEach((element) => {
+			console.log('here are the derop down items ' + JSON.stringify(element.dropDownItems));
+			menuDropDownObjectsBuilt.push(
+				<UncontrolledDropdown setActiveFromChild>
+					<DropdownToggle tag="a" className="nav-link" caret>
+						{element.title}
+					</DropdownToggle>
+					<DropdownMenu>
+						{this.buildDropDownItems(element.dropDownItems)}
+					</DropdownMenu>
+				</UncontrolledDropdown>
+			);
+		});
+		return menuDropDownObjectsBuilt;
+	}
+
+	//drop downs with menu items
+	buildDropDownItems(dropDownItemsArray){
+		var dropDownsBuilt = [];
+		var menuItemsBuilt = [];
+		dropDownItemsArray.forEach((element) => {
+			console.log('yo here it is ' + JSON.stringify(element));
+			dropDownsBuilt.push(
+				<DropdownItem href={element.link}>{element.title}</DropdownItem>
+			)
+		});
+		return dropDownsBuilt;
+	}
+
 	buildMenuItems(menuItemsArray) {
 		var menuItemsBuilt = [];
 		menuItemsArray.forEach((element) => {
@@ -33,25 +65,6 @@ class NavBarCustom extends Component {
 				)
 		});
 		return menuItemsBuilt;
-	}
-
-	//drop downs with menu items
-	buildDropDowns(dropDownItemsArray){
-		var dropDownsBuilt = [];
-		var menuItemsBuilt = [];
-		dropDownItemsArray.forEach((element) => {
-				dropDownsBuilt.push(
-					<UncontrolledDropdown nav inNavbar>
-						<DropdownToggle nav caret>
-							{element.header}
-						</DropdownToggle>
-						<DropdownMenu right>
-							{this.buildMenuItems(element.menuItems)}
-						</DropdownMenu>
-					</UncontrolledDropdown>
-				)
-		});
-		return dropDownsBuilt;
 	}
 
 	evalSocial(){
@@ -82,7 +95,7 @@ class NavBarCustom extends Component {
 						<Collapse isOpen={this.state.isOpen} navbar>
 							<Nav className="ml-auto" navbar >
 								{this.buildMenuItems(this.props.menuItems)}
-								{this.buildDropDowns(this.props.dropDownItems)}
+								{this.buildMenuDropDowns(this.props.dropDownObjects)}
 							</Nav>
 						</Collapse>
 					</Navbar>

@@ -17,7 +17,7 @@ render() {
 		<div class="project-frame">
 			<Jumbotron>
 				<h1 className="display-3">Welcome!</h1>
-				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap, Router, and other custom components. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">link to the repo</a>.</p>
+				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap, Router, and other custom components. AWS Amplify hosts the application. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">link to the repo</a>.</p>
 			</Jumbotron>
 
 			<VerticalTimeline>
