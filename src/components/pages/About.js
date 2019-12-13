@@ -2,10 +2,9 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Jumbotron, Button } from 'reactstrap';
 import { VerticalTimeline, VerticalTimelineElement, StarIcon }  from 'react-vertical-timeline-component';
-import ReactSVG from 'react-svg'
 
 import 'react-vertical-timeline-component/style.min.css';
-//import "../../stylesheets/HolyGrail.css";
+import "../../stylesheets/HolyGrail.css";
 import "../../stylesheets/Tools.css";
 
 
@@ -20,7 +19,7 @@ render() {
 				<p className="lead">This is a portfolio of projects to showcase my software expertise. It was built in React with libraries like react-strap, Router, and other custom components. AWS Amplify hosts the application. Here's the <a href="https://github.com/parbro3/react-PersonalWebsite" target="_blank">link to the repo</a>.</p>
 			</Jumbotron>
 
-			<VerticalTimeline>
+			<VerticalTimeline >
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"

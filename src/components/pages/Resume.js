@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Jumbotron, Button } from 'reactstrap';
 import {PDFDownloadLink, Document, Page} from 'react-pdf';
-import Lightbox from 'react-images';
 import "../../stylesheets/HolyGrail.css";
 import "../../stylesheets/Resume.css";
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom';
 import { Jumbotron, Button } from 'reactstrap';
-import Lightbox from 'react-images';
 
 
 
