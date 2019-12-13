@@ -54,7 +54,7 @@ render() {
 		},
 		{
 			imgSource: solutionsArchitect,
-			link: "https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-10-26&ci=AWS01125057"
+			link: "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-12-12&ci=AWS01125057"
 		}
 	]
 
