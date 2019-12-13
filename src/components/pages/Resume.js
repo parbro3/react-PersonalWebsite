@@ -32,8 +32,6 @@ class Resume extends Component {
 
         return (
 
-
-
           <div class="project-frame">
             <div style={buttonStyle}>
                 <Button color="secondary">
