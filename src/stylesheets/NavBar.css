@@ -13,18 +13,31 @@ ul.social-share {
 }
 
 .share-container{
-  margin-left: 10px;
+  margin-left: 0px;
   margin-right: 0px;
   flex-wrap: wrap;
 }
 
 .share-icon {
   display: inline-block;
-  margin:9px;
+  margin:10px;
 }
 
 .share-icon:hover {
   margin-left:10px;
   margin-right:10px;
   cursor: pointer;
+}
+
+.badgeContainer{
+    display: block;
+    width: 23%;
+    margin-left: 5px;
+}
+
+.imgBadge {
+  float: left;
+  display: inline-block;
+  object-fit: cover;
+  height: 75px;
 }

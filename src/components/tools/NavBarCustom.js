@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import SocialIcons from './SocialIcons.js';
 import ShareIcons from './ShareIcons.js';
+import Badge from './Badge.js';
 import {AutoAffix} from 'react-overlays'
 
 import "../../stylesheets/NavBar.css";
@@ -83,14 +84,32 @@ class NavBarCustom extends Component {
 		}
 	}
 
+	evalBadges(badges){
+		var badgeArray = [];
+		console.log('here are the bages ' + JSON.stringify(badges));
+		badges.forEach((element) => {
+			console.log('oh here\'s a badge');
+			badgeArray.push(
+				<Badge imgSource={element.imgSource} link={element.link} />
+			);
+		});
+		return badgeArray;
+	}
+
 	render() {
 		if(this.props.menuItemsShowing==="true"){
 			return(
 				<div>
 					<Navbar color="light" light expand="md" >
 						<NavbarBrand href="/">{this.props.title}</NavbarBrand>
+
 						{this.evalSocial()}
 						{this.evalShare()}
+
+						<div class="badgeContainer">
+							{this.evalBadges(this.props.badges)}
+						</div>
+
 						<NavbarToggler onClick={this.toggle} />
 						<Collapse isOpen={this.state.isOpen} navbar>
 							<Nav className="ml-auto" navbar >

@@ -4,6 +4,8 @@ import {PageHeader} from 'react-bootstrap';
 import {Affix, AutoAffix} from 'react-overlays'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../stylesheets/HolyGrail.css";
+import cloudPractitioner from '../img/cloudPractitioner.png';
+import solutionsArchitect from '../img/solutionsArchitect.png';
 
 import NavBarCustom from './tools/NavBarCustom.js';
 
@@ -45,10 +47,21 @@ render() {
 		]
 	}
 
+	var badges = [
+		{
+			imgSource: cloudPractitioner,
+			link: "https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-10-26&ci=AWS01125057"
+		},
+		{
+			imgSource: solutionsArchitect,
+			link: "https://www.certmetrics.com/amazon/public/badge.aspx?i=9&t=c&d=2019-10-26&ci=AWS01125057"
+		}
+	]
+
 	return(
 		<div>
 			<PageHeader class="HolyGrail-header">
-				<NavBarCustom title="parker bronson" social="true" share="false" menuItemsShowing="true" menuItems={menuObject.menuItems} dropDownObjects={menuObject.menuDropDownObjects}/>
+				<NavBarCustom title="parker bronson" badges={badges} social="true" share="false" menuItemsShowing="true" menuItems={menuObject.menuItems} dropDownObjects={menuObject.menuDropDownObjects}/>
 			</PageHeader>
 		</div>
 	);
