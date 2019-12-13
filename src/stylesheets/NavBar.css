@@ -31,8 +31,14 @@ ul.social-share {
 
 .badgeContainer{
     display: block;
-    width: 23%;
+    width: 150px;
     margin-left: 5px;
+}
+
+@media only screen and (max-width: 900px) {
+  .badgeContainer{
+    display:none;
+  }
 }
 
 .imgBadge {
