@@ -46,12 +46,15 @@
 }
 
 .vertical-timeline-element-content .vertical-timeline-element-date {
-    left: 5%;
+    top: -50px;
     position: absolute;
-    top: -58px;
     color: white;
     font-size: 22px;
 }
+
+  .vertical-timeline-element{
+      margin: 4em 0;
+  }
 
 @media (min-width: 1170px) {
   .vertical-timeline-element.vertical-timeline-element--right .vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element:nth-child(even):not(.vertical-timeline-element--left) .vertical-timeline-element-content .vertical-timeline-element-date {
