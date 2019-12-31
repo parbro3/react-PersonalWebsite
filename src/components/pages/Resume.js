@@ -38,7 +38,7 @@ class Resume extends Component {
                 </Button>
             </div>
             <br/>
-            <div class="Resume">
+            <div class="resume">
                 <Document
                     file={require("./ParkerBronson_Resume.pdf")}
                     onLoadSuccess={this.onDocumentLoadSuccess} >

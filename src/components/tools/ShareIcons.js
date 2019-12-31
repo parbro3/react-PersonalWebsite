@@ -20,7 +20,6 @@ class ShareIcons extends Component {
   }
 
 onMouseEnterHandler = (icon) => {
-  console.log('entered container!');
 
   switch(icon){
     case 'fb':
@@ -45,7 +44,6 @@ onMouseEnterHandler = (icon) => {
 }
 
 onMouseExitHandler = (icon) => {
-  console.log('exited container!');
 
   switch(icon){
     case 'fb':

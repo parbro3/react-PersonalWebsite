@@ -26,9 +26,7 @@ class NavBarCustom extends Component {
 
 	buildMenuDropDowns(menuObjectsArray){
 		var menuDropDownObjectsBuilt =[];
-		console.log('building menu drop down');
 		menuObjectsArray.forEach((element) => {
-			console.log('here are the derop down items ' + JSON.stringify(element.dropDownItems));
 			menuDropDownObjectsBuilt.push(
 				<UncontrolledDropdown setActiveFromChild>
 					<DropdownToggle tag="a" className="nav-link" caret>
@@ -48,7 +46,6 @@ class NavBarCustom extends Component {
 		var dropDownsBuilt = [];
 		var menuItemsBuilt = [];
 		dropDownItemsArray.forEach((element) => {
-			console.log('yo here it is ' + JSON.stringify(element));
 			dropDownsBuilt.push(
 				<DropdownItem href={element.link}>{element.title}</DropdownItem>
 			)
@@ -86,9 +83,7 @@ class NavBarCustom extends Component {
 
 	evalBadges(badges){
 		var badgeArray = [];
-		console.log('here are the bages ' + JSON.stringify(badges));
 		badges.forEach((element) => {
-			console.log('oh here\'s a badge');
 			badgeArray.push(
 				<Badge imgSource={element.imgSource} link={element.link} />
 			);

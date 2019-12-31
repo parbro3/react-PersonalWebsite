@@ -4,7 +4,6 @@ import "../../stylesheets/NavBar.css";
 class Badge extends Component {
 
 render() {
-  console.log('here is the link ' + this.props.link);
 	return(
     <div>
       <div>
