@@ -5,8 +5,10 @@
 }
 
 .HolyGrail-header {
-  background-color: lightblue;
-  word-wrap: break-word;
+  position: fixed;
+  width: 100%;
+  z-index:1;
+  font-size: 20px;
 }
 
 .HolyGrail-footer {
@@ -16,6 +18,7 @@
 }
 
 .HolyGrail-body {
+  padding-top: 17%;
   display: flex;
   flex: 1;
 }
@@ -43,8 +46,12 @@
 
 @media (min-width: 768px) {
   .HolyGrail-body {
+    padding-top: 6%;
     flex-direction: row;
     flex: 1;
+  }
+  .HolyGrail-header{
+    font-size:40px
   }
   .HolyGrail-main {
     flex: 1;

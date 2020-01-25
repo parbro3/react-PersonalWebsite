@@ -60,9 +60,9 @@ render() {
 
 	return(
 		<div>
-			<PageHeader class="HolyGrail-header">
+			<div class="HolyGrail-header">
 				<NavBarCustom title="parker bronson" badges={badges} social="true" share="false" menuItemsShowing="true" menuItems={menuObject.menuItems} dropDownObjects={menuObject.menuDropDownObjects}/>
-			</PageHeader>
+			</div>
 		</div>
 	);
 }
