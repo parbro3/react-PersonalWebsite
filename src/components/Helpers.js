@@ -1,5 +1,3 @@
-import React, { Component } from 'react';
-
 export function multiplyText(i, text) {
   var start;
   var returnString = text;

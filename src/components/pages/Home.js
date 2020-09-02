@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link, Route } from 'react-router-dom';
-import { Jumbotron, Button } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
 
 import "../../stylesheets/HolyGrail.css";
 

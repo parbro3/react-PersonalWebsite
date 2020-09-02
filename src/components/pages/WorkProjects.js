@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
 import CarouselCustom from '../tools/CarouselCustom.js';
-import { Route } from 'react-router-dom';
-import { Jumbotron, Button } from 'reactstrap';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
-import { Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle } from 'reactstrap';
+import { Jumbotron } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink } from 'reactstrap';
 import classnames from 'classnames';
 
 import "../../stylesheets/HolyGrail.css";

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import SocialIcons from './SocialIcons.js';
 import ShareIcons from './ShareIcons.js';
 import Badge from './Badge.js';
-import {AutoAffix} from 'react-overlays'
 
 import "../../stylesheets/NavBar.css";
 

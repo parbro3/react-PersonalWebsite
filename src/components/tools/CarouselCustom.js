@@ -1,14 +1,5 @@
 import React, { Component } from 'react';
-import {
-  Carousel,
-  CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
-  CarouselCaption
-} from 'reactstrap';
-
-import { Jumbotron } from 'reactstrap';
-
+import { Carousel, CarouselItem, CarouselControl, CarouselIndicators, CarouselCaption } from 'reactstrap';
 import "../../stylesheets/Tools.css";
 
 class CarouselCustom extends Component {

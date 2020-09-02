@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-import { Jumbotron, Button } from 'reactstrap';
-import {PDFDownloadLink, Document, Page} from 'react-pdf';
+import { Button } from 'reactstrap';
+import {Document, Page} from 'react-pdf';
 import "../../stylesheets/HolyGrail.css";
 import "../../stylesheets/Resume.css";
 

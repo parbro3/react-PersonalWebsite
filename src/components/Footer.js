@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import "../stylesheets/HolyGrail.css";
 import NavBarCustom from './tools/NavBarCustom.js';
-const Helpers = require('./Helpers.js');
 
 class Footer extends Component {
 

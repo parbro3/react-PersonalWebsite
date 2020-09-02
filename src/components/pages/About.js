@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import { Route } from 'react-router-dom';
-import { Jumbotron, Button } from 'reactstrap';
-import { VerticalTimeline, VerticalTimelineElement, StarIcon }  from 'react-vertical-timeline-component';
+import { Jumbotron } from 'reactstrap';
+import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 
 import 'react-vertical-timeline-component/style.min.css';
 import "../../stylesheets/HolyGrail.css";
@@ -23,7 +22,41 @@ render() {
 
 				<VerticalTimelineElement
 					className="vertical-timeline-element--work"
-					date="Jan 2019 - Present"
+					date="Jun 2020 - Present"
+					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+					icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+							<path d="M0 0h24v24H0z" fill="none"/>
+							<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+						</svg> } >
+					<h3 className="vertical-timeline-element-title">AWS Associate Cloud Consultant</h3>
+					<h4 className="vertical-timeline-element-subtitle">Washington D.C. Metro Area</h4>
+					<p>
+						<a href="https://www.obeo.com/" target="blank">Obeo</a> is a real-estate technology company primarily focused in photography. 
+						Initially starting as a software developer, I worked on projects that involve api integrations with Youtube, Filestack, and Salesforce. I built others that utilize the Salesforce CLI for data import,
+						and a large project developing regression tests for end-to-end testing to enable CI/CD. Taking ownership of these projects allowed me to delve into other responsibilities including
+						designing new features, researching alternatives, and deciding on the path forward. 
+					</p>
+				</VerticalTimelineElement>
+
+				<VerticalTimelineElement
+						className="vertical-timeline-element--education"
+						date="June 2019 - April 2020"
+						iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+						icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+								<path d="M0 0h24v24H0z" fill="none"/>
+								<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+							</svg> } >
+						<h3 className="vertical-timeline-element-title">BYU Marriot School of Business</h3>
+						<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
+						<p>
+							I decided to forgo my offers and get a Master's in Information Systems Management from the BYU Marriot School.
+							To pursue my greater passion in technology world, I pivoted and got my Master's in Information Systems Management from Brigham Young University.
+						</p>
+				</VerticalTimelineElement>
+
+				<VerticalTimelineElement
+					className="vertical-timeline-element--work"
+					date="Jan 2019 - May 2020"
 					iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 					icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 							<path d="M0 0h24v24H0z" fill="none"/>
@@ -32,26 +65,12 @@ render() {
 					<h3 className="vertical-timeline-element-title">Obeo Software Engineer</h3>
 					<h4 className="vertical-timeline-element-subtitle">Sandy, Utah</h4>
 					<p>
-						I currently work as a software engineer for an on-demand real estate photography company called <a href="https://www.obeo.app" target="_blank">Obeo</a>.
-                        I've worked on projects that involve api integrations with Youtube, Filestack, and SalesforceOne, projects that utilize the Salesforce CLI for data
-						importing, and a big project developing regression tests for end to end testing to facilitate CI/CD.
+						<a href="https://www.obeo.com/" target="blank">Obeo</a> is a real-estate technology company primarily focused in photography. 
+						Initially starting as a software developer, I worked on projects that involve api integrations with Youtube, Filestack, and Salesforce. I built others that utilize the Salesforce CLI for data import,
+						and a large project developing regression tests for end-to-end testing to enable CI/CD. Taking ownership of these projects allowed me to delve into other responsibilities including
+						designing new features, researching alternatives, and deciding on the path forward. 
 					</p>
 				</VerticalTimelineElement>
-
-			<VerticalTimelineElement
-					className="vertical-timeline-element--work"
-					date="June 2019 - April 2020"
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
-					icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-							<path d="M0 0h24v24H0z" fill="none"/>
-							<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
-						</svg> } >
-					<h3 className="vertical-timeline-element-title">BYU Marriot School of Business</h3>
-					<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
-					<p>
-						I decided to forgo my offers and get a Master's in Information Systems Management from the BYU Marriot School.
-					</p>
-			</VerticalTimelineElement>
 
 			<VerticalTimelineElement
 					className="vertical-timeline-element--work"

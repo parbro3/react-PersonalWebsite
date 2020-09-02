@@ -6,8 +6,6 @@ import Resume from './pages/Resume.js';
 import PersonalProjects from './pages/PersonalProjects.js';
 import SchoolProjects from './pages/SchoolProjects.js';
 import WorkProjects from './pages/WorkProjects.js';
-import Home from './pages/Home.js';
-
 import "../stylesheets/HolyGrail.css";
 
 class Main extends Component {

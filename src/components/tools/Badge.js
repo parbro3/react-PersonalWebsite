@@ -1,4 +1,4 @@
-import React, {Image, Component } from 'react';
+import React, { Component } from 'react';
 import "../../stylesheets/NavBar.css";
 
 class Badge extends Component {

@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import {PageHeader} from 'react-bootstrap';
-
-import {Affix, AutoAffix} from 'react-overlays'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "../stylesheets/HolyGrail.css";
 import cloudPractitioner from '../img/cloudPractitioner.png';
