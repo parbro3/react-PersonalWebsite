@@ -28,13 +28,11 @@ render() {
 							<path d="M0 0h24v24H0z" fill="none"/>
 							<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
 						</svg> } >
-					<h3 className="vertical-timeline-element-title">AWS Associate Cloud Consultant</h3>
+					<h3 className="vertical-timeline-element-title">Amazon Web Services Associate Cloud Consultant</h3>
 					<h4 className="vertical-timeline-element-subtitle">Washington D.C. Metro Area</h4>
 					<p>
-						<a href="https://www.obeo.com/" target="blank">Obeo</a> is a real-estate technology company primarily focused in photography. 
-						Initially starting as a software developer, I worked on projects that involve api integrations with Youtube, Filestack, and Salesforce. I built others that utilize the Salesforce CLI for data import,
-						and a large project developing regression tests for end-to-end testing to enable CI/CD. Taking ownership of these projects allowed me to delve into other responsibilities including
-						designing new features, researching alternatives, and deciding on the path forward. 
+						AWS is all still pretty new to me. But, I get to practice our 14 leadership principles every day. I get out of my comfort zone by jumping on new projects and interfacing with customers. 
+						So far, I love the fast culture at Amazon and emphasis on growth and learning.
 					</p>
 				</VerticalTimelineElement>
 
@@ -46,11 +44,10 @@ render() {
 								<path d="M0 0h24v24H0z" fill="none"/>
 								<path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
 							</svg> } >
-						<h3 className="vertical-timeline-element-title">BYU Marriot School of Business</h3>
+						<h3 className="vertical-timeline-element-title">BYU Marriott School of Business</h3>
 						<h4 className="vertical-timeline-element-subtitle">Provo, Utah</h4>
 						<p>
-							I decided to forgo my offers and get a Master's in Information Systems Management from the BYU Marriot School.
-							To pursue my greater passion in technology world, I pivoted and got my Master's in Information Systems Management from Brigham Young University.
+							It took me an unergraduate degree to realize that I didn't want to be a Mechanical Engineer. To pursue my greater passion in the technology world, I pivoted and got my Master's in Information Systems Management from the BYU Marriott School.
 						</p>
 				</VerticalTimelineElement>
 
@@ -98,7 +95,7 @@ render() {
 					<h3 className="vertical-timeline-element-title">FedEx IT Intern</h3>
 					<h4 className="vertical-timeline-element-subtitle">Memphis, Tennessee</h4>
 					<p>
-					Working in the Network Communications Dept, I led the technical team using Scrum/Agile methodologies in the development of a Network Health dashboard in Splunk (Big Data Analytics).
+					Working in the Network Communications Dept, I led the technical team using Scrum/Agile methodologies in the development of a real-time network health dashboard in Splunk (Big Data Analytics).
 					</p>
 				</VerticalTimelineElement>
 
@@ -164,7 +161,7 @@ render() {
 				<h3 className="vertical-timeline-element-title">Missionary - The Church of Jesus Christ of Latter-day Saints</h3>
 				<h4 className="vertical-timeline-element-subtitle">Gilbert, Arizona</h4>
 				<p>
-				I decided to put off school for two years and volunteer in Phoenix, Arizona. I helped with humanitarian projects and shared how to live a <a href="https://www.mormon.org/" target="_blank">better life</a>.
+				I decided to put off school for two years and volunteer in Phoenix, Arizona. I helped with humanitarian projects and shared with people how to live a <a href="https://www.mormon.org/" target="_blank">happy life</a>.
 				</p>
 			</VerticalTimelineElement>
 
