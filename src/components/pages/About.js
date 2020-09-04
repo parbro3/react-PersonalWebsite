@@ -31,7 +31,7 @@ render() {
 					<h3 className="vertical-timeline-element-title">Amazon Web Services Associate Cloud Consultant</h3>
 					<h4 className="vertical-timeline-element-subtitle">Washington D.C. Metro Area</h4>
 					<p>
-						AWS is all still pretty new to me. But, I get to practice our 14 leadership principles every day. I get out of my comfort zone by jumping on new projects and interfacing with customers. 
+						AWS is all still pretty new to me. But, I get to practice our 14 leadership principles every day. I get out of my comfort zone by jumping on new projects and interfacing with customers.
 						So far, I love the fast culture at Amazon and emphasis on growth and learning.
 					</p>
 				</VerticalTimelineElement>
@@ -62,10 +62,10 @@ render() {
 					<h3 className="vertical-timeline-element-title">Obeo Software Engineer</h3>
 					<h4 className="vertical-timeline-element-subtitle">Sandy, Utah</h4>
 					<p>
-						<a href="https://www.obeo.com/" target="blank">Obeo</a> is a real-estate technology company primarily focused in photography. 
+						<a href="https://www.obeo.com/" target="blank">Obeo</a> is a real-estate technology company primarily focused in photography.
 						Initially starting as a software developer, I worked on projects that involve api integrations with Youtube, Filestack, and Salesforce. I built others that utilize the Salesforce CLI for data import,
 						and a large project developing regression tests for end-to-end testing to enable CI/CD. Taking ownership of these projects allowed me to delve into other responsibilities including
-						designing new features, researching alternatives, and deciding on the path forward. 
+						designing new features, researching alternatives, and deciding on the path forward.
 					</p>
 				</VerticalTimelineElement>
 
@@ -133,7 +133,7 @@ render() {
 
 				<VerticalTimelineElement
 				className="vertical-timeline-element--education"
-				date="August 2015 - Febraruary 2017"
+				date="August 2015 - February 2017"
 				iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
 				icon={<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
 						<path d="M0 0h24v24H0z" fill="none"/>
