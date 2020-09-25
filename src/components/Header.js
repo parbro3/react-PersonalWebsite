@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import "../stylesheets/HolyGrail.css";
 import cloudPractitioner from '../img/cloudPractitioner.png';
 import solutionsArchitect from '../img/solutionsArchitect.png';
+import developerAssociate from '../img/developerAssociate.png';
 
 import NavBarCustom from './tools/NavBarCustom.js';
 
@@ -52,6 +53,10 @@ render() {
 		{
 			imgSource: solutionsArchitect,
 			link: "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2019-12-12&ci=AWS01125057"
+		},
+		{
+			imgSource: developerAssociate,
+			link: "https://www.youracclaim.com/badges/c4142162-f68b-4655-ad6c-b61e2c675865/public_url"
 		}
 	]
 
